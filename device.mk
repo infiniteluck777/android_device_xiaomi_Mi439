@@ -106,6 +106,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidlbase_shim
 
+# Extra packages
+PRODUCT_PACKAGES += \
+    RemovePackages \
+    Accord \
+    FossifyGallery \
+    HeliBoard \
+    CalcYou \
+    Datura
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
