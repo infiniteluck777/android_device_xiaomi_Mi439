@@ -34,6 +34,11 @@ PRODUCT_MODEL := SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
+# Signing
+-include vendor/extra/product.mk
+
+# Project Blaze specific
+BLAZE_MAINTAINER := Phantom
 ROM_FOLDER := blaze
 WITH_GAPPS := false
 
