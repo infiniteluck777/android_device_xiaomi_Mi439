@@ -35,7 +35,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 
 # Signing
--include vendor/extra/product.mk
+# -include vendor/extra/product.mk
 
 # Project Blaze specific
 BLAZE_MAINTAINER := Phantom
