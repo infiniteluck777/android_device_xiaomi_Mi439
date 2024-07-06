@@ -38,7 +38,7 @@ TARGET_VENDOR := Xiaomi
 
 # Maintainer
 EVEREST_MAINTAINER := SDM丨FARHAN
-ROM_FOLDER := blaze
+ROM_FOLDER := everest
 WITH_GAPPS := false
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
