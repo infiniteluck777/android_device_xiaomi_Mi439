@@ -14,4 +14,4 @@ COMMON_LUNCH_CHOICES := \
     evolution_Mi439-eng \
     lineage_Mi439_4_19-user \
     lineage_Mi439_4_19-userdebug \
-    Lineage_Mi439_4_19-eng
+    lineage_Mi439_4_19-eng
