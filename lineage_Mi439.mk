@@ -36,8 +36,8 @@ TARGET_VENDOR := Xiaomi
 # Signing
 # -include vendor/extra/product.mk
 
-# Project Blaze specific
-BLAZE_MAINTAINER := FARHAN
+# Maintainer
+EVEREST_MAINTAINER := SDM丨FARHAN
 ROM_FOLDER := blaze
 WITH_GAPPS := false
 
