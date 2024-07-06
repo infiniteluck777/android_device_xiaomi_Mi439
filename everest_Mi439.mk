@@ -43,7 +43,7 @@ TARGET_INCLUDE_PIXEL_LAUNCHER := false
 
 # Maintainer
 EVEREST_MAINTAINER := "SDM丨FARHAN"
-ROM_FOLDER := everest
+
 
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
