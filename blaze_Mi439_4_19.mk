@@ -38,7 +38,7 @@ TARGET_VENDOR := Xiaomi
 # -include vendor/extra/product.mk
 
 # Project Blaze specific
-BLAZE_MAINTAINER := FARHAN
+BLAZE_MAINTAINER := FARHAN•XD
 ROM_FOLDER := blaze
 WITH_GAPPS := false
 
