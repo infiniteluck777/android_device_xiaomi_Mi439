@@ -40,7 +40,7 @@ TARGET_VENDOR := Xiaomi
 # Project Blaze specific
 BLAZE_MAINTAINER := FARHAN•XD
 ROM_FOLDER := blaze
-WITH_GAPPS := false
+WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
