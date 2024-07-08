@@ -10,6 +10,9 @@ TARGET_EXCLUDE_CRYPTFSHW := true
 # Gatekeeper
 TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
 
+# Signed Build
+$(call inherit-product, vendor/extra/product.mk)
+
 # Keymaster
 TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 
