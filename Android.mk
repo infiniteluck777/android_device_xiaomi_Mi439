@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 The Evolution-X Project
+# Copyright (C) 2024 The AfterLife Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
