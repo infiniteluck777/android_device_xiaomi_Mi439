@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2024 The Evolution-X Project
+# Copyright (C) 2024 The AfterLife Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,7 +23,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true
 
 # Inherit some common AfterLife Stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # Kernel
 TARGET_KERNEL_VERSION := 4.19
@@ -40,7 +40,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
-PRODUCT_NAME := lineage_Mi439_4_19
+PRODUCT_NAME := afterlife_Mi439_4_19
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SDM439
@@ -54,3 +54,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNMIXM:user/release-keys"
+
+# Pixel Charging
+USE_PIXEL_CHARGING := true
