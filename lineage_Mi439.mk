@@ -8,8 +8,20 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
+# CoreGapps
+AFTERLIFE_GAPPS := true
+AFTERLIFE_CORE := true
 
-# Inherit some common LineageOS stuff.
+# Maintainer
+AFTERLIFE_MAINTAINER := fucking_shit
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur 
+TARGET_SUPPORTS_BLUR := true
+
+# Inherit some common AfterLife Stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Kernel
