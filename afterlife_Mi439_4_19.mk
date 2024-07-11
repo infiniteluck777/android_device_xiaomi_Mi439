@@ -22,7 +22,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Blur 
 TARGET_SUPPORTS_BLUR := true
 
-# Inherit some common EvolutionX stuff.
+# Inherit some common AfterLife Stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Kernel
