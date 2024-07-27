@@ -25,12 +25,8 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# Matrixx
-MATRIXX_CHIPSET := SDM439
-MATRIXX_BATTERY := 5000mAh
-MATRIXX_DISPLAY := 720x1520
-MATRIXX_MAINTAINER := FK_FARHAN•xD
-WITH_GMS := false
+# Maintainer
+ALPHA_MAINTAINER := FARHAN•2008
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
