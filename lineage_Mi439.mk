@@ -25,12 +25,10 @@ PRODUCT_PACKAGES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 720
 
 # Sakura Official
-SAKURA_MAINTAINER := FARHAN•S1
-SAKURA_BUILD_TYPE := gapps
+SAKURA_MAINTAINER := FRN•Infiniteluck777
+SAKURA_BUILD_TYPE := vanilla 
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439
