@@ -26,19 +26,36 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Device config
-TARGET_HAS_UDFPS := false
-TARGET_ENABLE_BLUR := false
+TARGET_HAS_UDFPS := true
+TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 720
 
-TARGET_BUILD_PACKAGE := 1
+# TARGET_BUILD_PACKAGE options:
+# 1 - vanilla (default)
+# 2 - microg
+# 3 - gapps
+TARGET_BUILD_PACKAGE := 3
+
+# TARGET_LAUNCHER options:
+# 1 - stock (default)
+# 2 - lawnchair
+# 3 - pixel (valid only on gapps builds)
+TARGET_LAUNCHER := 2
+
+# GAPPS (valid only for GAPPS builds)
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+# TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Debugging
 TARGET_INCLUDE_MATLOG := false
 
 # Maintainer
-ALPHA_MAINTAINER := FARHAN•2008
+ALPHA_BUILD_TYPE := Official
+ALPHA_MAINTAINER := FARHAN•xd
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Mi439_4_19
